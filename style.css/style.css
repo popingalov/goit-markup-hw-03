@@ -1,0 +1,177 @@
+:root {
+  --hero-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  --hero-cl: #ffffff;
+  --a-focus-cl: #2196f3;
+  --h-and-li-cl: #212121;
+  --background-header: #ffffff;
+  --background-footer: #2f303a;
+  --body-cl: #757575;
+}
+
+body {
+  font-family: var(--hero-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--body-cl);
+  background-color: #e5e5e5;
+}
+
+header {
+  background-color: var(--background-header);
+}
+footer {
+  background-color: var(--background-footer);
+}
+footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.addres {
+  color: var(--background-header);
+  font-family: var(--hero-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+a:focus,
+a:hover {
+  color: var(--a-focus-cl);
+}
+button:focus,
+button:hover {
+  color: var(--hero-cl);
+  background: var(--a-focus-cl);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+footer a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: var(--hero-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+header a {
+  color: var(--h-and-li-cl);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: var(--hero-font);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+button {
+  font-weight: 500;
+  cursor: pointer;
+  font-family: var(--hero-font);
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.logo-web {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--a-focus-cl);
+}
+.logo-studio {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--h-and-li-cl);
+}
+footer .logo-studio {
+  color: var(--hero-cl);
+}
+
+.h1 {
+  font-family: var(--hero-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-cl);
+}
+.h1-button {
+  font-family: var(--hero-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: var(--h-and-li-cl);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.dignity-li {
+  font-family: var(--hero-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--h-and-li-cl);
+}
+
+.h2 {
+  font-family: var(--hero-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.66;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--h-and-li-cl);
+}
+
+.team-name {
+  font-family: var(--hero-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--h-and-li-cl);
+}
+.team-p {
+  font-family: var(--hero-font);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.works {
+  font-family: var(--hero-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--h-and-li-cl);
+}
+.works-p {
+  font-family: var(--hero-font);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+ul li {
+  list-style-type: none;
+}
+.current {
+  color: var(--a-focus-cl);
+}
