@@ -57,8 +57,18 @@ footer a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-header a {
+header li a {
   color: var(--h-and-li-cl);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: var(--hero-font);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+header a {
+  color: var(--body-cl);
   text-decoration: none;
   font-weight: 500;
   font-family: var(--hero-font);
@@ -112,7 +122,6 @@ footer .logo-studio {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   letter-spacing: 0.06em;
   color: var(--h-and-li-cl);
   background: #f5f4fa;
@@ -169,9 +178,65 @@ footer .logo-studio {
   line-height: 1.87;
 }
 
-ul li {
-  list-style-type: none;
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
+
 .current {
   color: var(--a-focus-cl);
+}
+
+/* позиционирование */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+.section {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 93px;
+  padding-bottom: 93px;
+}
+.menu {
+  display: inline-flex;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 50px;
+}
+.logo {
+  margin-right: 93px;
+  display: inline-block;
+}
+header .section {
+  display: flex;
+  align-items: center;
+}
+
+.h1-button {
+  min-width: 200px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px 32px;
+  margin: auto;
 }
