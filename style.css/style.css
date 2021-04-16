@@ -13,6 +13,7 @@
   --team-foto: 4;
   --bg: #e5e5e5;
   --bg-team: #f5f4fa;
+  --services-button: 5;
 }
 
 body {
@@ -91,6 +92,8 @@ button {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .logo-web {
@@ -355,4 +358,19 @@ img {
 .footer a {
   display: flex;
   padding-bottom: 9px;
+}
+
+.services-button {
+  padding-left: 15px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.section-services .section {
+  background: #e5e5e5;
+}
+
+.services-button .button {
 }
