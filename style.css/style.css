@@ -10,6 +10,9 @@
   --worhy-items: 4;
   --background: #2f303a;
   --work-foto: 3;
+  --team-foto: 4;
+  --bg: #e5e5e5;
+  --bg-team: #f5f4fa;
 }
 
 body {
@@ -131,9 +134,11 @@ footer .logo-studio {
   border-radius: 4px;
 }
 .hero-section {
+  display: flex;
   padding-bottom: 200px;
   padding-top: 200px;
   background-color: var(--background);
+  margin-left: 15px;
 }
 
 .dignity-li {
@@ -281,6 +286,7 @@ img {
 .worhy {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 15px;
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -298,7 +304,55 @@ img {
 .work-foto {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 30px * var(--work-foto)) / var(--w));
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.foto {
+  padding-left: 15px;
+  margin-top: 50px;
+  flex-basis: calc((100% - 30px * var(--work-foto)) / var(--work-foto));
+}
+.foto:not(:first-child) {
   margin-left: 30px;
-  margin-top: 30px;
+}
+
+.team {
+  padding-left: 15px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.section-team {
+  background-color: var(--bg-team);
+}
+
+.team-foto {
+  margin-top: 50px;
+  background: #ffffff;
+  max-width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 30px * var(--team-foto)) / var(--team-foto));
+}
+.team-foto:not(:first-child) {
+  margin-left: 30px;
+}
+
+.bg {
+  background-color: var(--bg);
+}
+.footer .section {
+  flex-direction: column;
+  display: flex;
+}
+
+.footer .logo {
+  padding-bottom: 20px;
+}
+.footer a {
+  display: flex;
+  padding-bottom: 9px;
 }
