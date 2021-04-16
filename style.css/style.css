@@ -361,16 +361,21 @@ img {
 }
 
 .services-button {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+.services-button .button:not(:first-child) {
+  padding-left: 30px;
+}
+
+.section-services .section {
+  background: #e5e5e5;
+}
+.services-ul {
   padding-left: 15px;
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-}
-.section-services .section {
-  background: #e5e5e5;
-}
-
-.services-button .button {
 }
