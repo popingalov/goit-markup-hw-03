@@ -271,3 +271,7 @@ img {
 .dark-bg .title-label {
   color: var(--alt-text-cl);
 }
+
+.hero-section {
+  background: #2f303a;
+}

@@ -7,6 +7,9 @@
   --background-header: #ffffff;
   --background-footer: #2f303a;
   --body-cl: #757575;
+  --worhy-items: 4;
+  --background: #2f303a;
+  --work-foto: 3;
 }
 
 body {
@@ -127,6 +130,11 @@ footer .logo-studio {
   background: #f5f4fa;
   border-radius: 4px;
 }
+.hero-section {
+  padding-bottom: 200px;
+  padding-top: 200px;
+  background-color: var(--background);
+}
 
 .dignity-li {
   font-family: var(--hero-font);
@@ -139,6 +147,7 @@ footer .logo-studio {
 }
 
 .h2 {
+  margin-bottom: 50px;
   font-family: var(--hero-font);
   font-weight: 700;
   font-size: 36px;
@@ -206,6 +215,11 @@ h3,
 p {
   margin-top: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .section {
   width: 1200px;
@@ -216,20 +230,35 @@ p {
   padding-top: 93px;
   padding-bottom: 93px;
 }
-.menu {
-  display: inline-flex;
+.header .section {
+  border-bottom: 1px solid #ececec;
+  justify-content: flex-end;
+  display: flex;
+  align-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.menu li:not(:last-child) {
-  margin-right: 50px;
-}
-.logo {
-  margin-right: 93px;
-  display: inline-block;
-}
-header .section {
+.header .telma-item {
+  margin-left: 50px;
   display: flex;
   align-items: center;
+}
+.header .nav {
+  align-items: center;
+  display: flex;
+  margin-right: auto;
+}
+
+.logo {
+  margin-right: 93px;
+}
+
+.h1 {
+  display: flex;
+  margin: auto;
+  max-width: 700px;
+  margin-bottom: 50px;
 }
 
 .h1-button {
@@ -239,4 +268,37 @@ header .section {
   align-items: center;
   padding: 10px 32px;
   margin: auto;
+}
+
+.menu {
+  display: inline-flex;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.worhy {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.worhy .worhy-items {
+  flex-basis: calc((100% - 30px * var(--worhy-items)) / var(--worhy-items));
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.dignity-li {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.work-foto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 30px * var(--work-foto)) / var(--w));
+  margin-left: 30px;
+  margin-top: 30px;
 }
