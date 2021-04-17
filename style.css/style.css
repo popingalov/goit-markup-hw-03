@@ -322,7 +322,6 @@ img {
 
 .team {
   padding-left: 15px;
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
@@ -398,4 +397,19 @@ img {
 .services-hp h3,
 p {
   padding-left: 24px;
+}
+.team-hp {
+  flex-direction: column;
+  display: flex;
+  border: 1px solid #eeeeee;
+}
+
+.team h3,
+p {
+  padding-left: 24px;
+}
+
+.team h3,
+p :not(:last-child) {
+  padding-top: 30px;
 }
