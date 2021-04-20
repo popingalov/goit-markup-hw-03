@@ -157,7 +157,7 @@ footer .logo-studio {
 }
 
 .h2 {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   font-family: var(--hero-font);
   font-weight: 700;
   font-size: 36px;
@@ -338,8 +338,8 @@ img {
   padding-left: 15px;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  /*  margin-left: -30px;
+  margin-top: -30px; */
 }
 .section-thre {
   padding-top: 94px;
