@@ -86,6 +86,7 @@ header a {
 }
 
 button {
+  padding: 6px 22px 6px 22px;
   border: 0px;
   font-weight: 500;
   cursor: pointer;
