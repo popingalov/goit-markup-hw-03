@@ -397,24 +397,11 @@ img {
   padding-bottom: 94px;
 }
 .services-ul {
-  padding-left: 15px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
 }
-.services-item {
-  border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 30px * var(--services-item)) / var(--services-item));
-}
-.services-item:nth-last-child(n + 4) {
-  margin-bottom: 30px;
-}
-.services-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .services-hp {
-  flex-direction: column;
-  display: flex;
   border: 1px solid #eeeeee;
   padding-left: 24px;
   padding-top: 20px;
