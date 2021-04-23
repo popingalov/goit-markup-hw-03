@@ -145,7 +145,6 @@ footer .logo-studio {
   padding-bottom: 200px;
   padding-top: 200px;
   background-color: var(--background);
-  margin-left: 15px;
 }
 
 .dignity-li {
@@ -369,6 +368,8 @@ img {
 .footer .section {
   flex-direction: column;
   display: flex;
+}
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
